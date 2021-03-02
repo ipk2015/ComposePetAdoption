@@ -29,6 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.DetailsActivity"
+            android:theme="@style/Theme.AndroidDevChallenge.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
